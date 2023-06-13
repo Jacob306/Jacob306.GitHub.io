@@ -43,6 +43,56 @@ $(function () {
     //////////ONLY CHANGE BELOW THIS POINT///////////
     /////////////////////////////////////////////////
 
+    var response = prompt("Easy or Hard")
+
+    if (response === "Easy") {
+      alert("Good Luck")
+createPlatform(100,125,30,500)
+createPlatform(100,625,350,30)
+createPlatform(700,580,100,30)
+createPlatform(800,580,100,200)
+createPlatform(1000,600,100,30)
+createPlatform(1300,370,100,30)
+createPlatform(1200,500,100,30)
+createPlatform(100,350,1000,30)
+createPlatform(200,220,100,30)
+createPlatform(630,220,100,30)
+createPlatform(900,220,100,30)
+createPlatform(1000,220,30,150)
+createPlatform(450,220,30,150)
+createPlatform(100,100,100,30)
+createPlatform(400,100,800,30)
+createPlatform(100,0,30,100)
+createCannon("bottom", 1000, 2000);
+    createCannon("left", 600, 3000);
+    createCannon("right",250, 3000);
+    }
+
+    if (response === "Hard") {
+      alert("God Luck")
+createPlatform(100,125,30,500)
+createPlatform(100,625,350,30)
+createPlatform(700,580,100,30)
+createPlatform(800,580,100,200)
+createPlatform(1000,600,100,30)
+createPlatform(1300,370,100,30)
+createPlatform(1200,500,100,30)
+createPlatform(100,350,1000,30)
+createPlatform(200,220,100,30)
+createPlatform(630,220,100,30)
+createPlatform(900,220,100,30)
+createPlatform(1000,220,30,150)
+createPlatform(450,220,30,150)
+createPlatform(100,100,100,30)
+createPlatform(400,100,800,30)
+createPlatform(100,0,30,100)
+createCannon("bottom", 1000, 2000);
+    createCannon("left", 600, 1000);
+    createCannon("right",250, 1000);
+}
+
+
+
     // TODO 1
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
@@ -76,6 +126,8 @@ createPlatform(100,0,30,100)
     createCollectable("max",1300,700)
     createCollectable("max",500,300)
     createCollectable("max",700,50)
+  
+    
 
     // TODO 3
     // Create cannons
@@ -83,9 +135,6 @@ createPlatform(100,0,30,100)
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
 
-    createCannon("bottom", 1000, 2000);
-    createCannon("left", 600, 1000);
-    createCannon("right",250, 1000);
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
     /////////////////////////////////////////////////
