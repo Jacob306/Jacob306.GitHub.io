@@ -69,7 +69,7 @@ createCannon("bottom", 1000, 2000);
     }
 
     if (response === "Hard") {
-      alert("God Luck")
+      alert("Good Luck")
 createPlatform(100,125,30,500)
 createPlatform(100,625,350,30)
 createPlatform(700,580,100,30)
